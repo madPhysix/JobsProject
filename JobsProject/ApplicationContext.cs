@@ -12,6 +12,7 @@ namespace JobsProject {
         public DbSet<Employees> Employee => Set<Employees>();
 
         public DbSet<Product> Products => Set<Product>();
-     
+
+        //public ApplicationContext() => Database.EnsureCreated();
     }
 }

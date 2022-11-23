@@ -11,11 +11,11 @@ namespace JobsProject.Controllers
 {
     [ApiController]
     [Route("[Controller]")]
-    public class ProductsController : ControllerBase
+    public class ProductController : ControllerBase
     {
         private readonly ApplicationContext _context;
 
-        public ProductsController(ApplicationContext context)
+        public ProductController(ApplicationContext context)
         {
             _context = context;
         }
